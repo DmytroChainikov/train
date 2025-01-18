@@ -18,3 +18,21 @@ p{
 .text{
     text-align-last: left;
 }
+.my-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 58px);
+}
+.hero-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-content p {
+    max-width: 500px;
+    font-size:  1.5rem;
+}
